@@ -1,5 +1,10 @@
-# ESP8266-DHT-HTTPS
+# ESP8266 DHT HTTPS
 Requirements:
+-
+- Install the ESP8266 WiFi Library: https://github.com/asksensors/Arduino/tree/master/libraries/ESP8266WiFi
 - Install the Adafruit DHT Library :  https://github.com/asksensors/DHT-sensor-library
-- Set the WiFi SSID and password
-- Set your Api Key In (you need to Sign up for https://asksensors.com/ and Create new sensor)
+
+Step-by-step tutorials:
+-
+- ESP8266 nodeMCU: https://www.instructables.com/id/DHT11-Temperature-and-Humidity-Monitoring-Using-th/
+- ESP01 IoT MCU:  https://www.instructables.com/id/IoT-MCU-Monitoring-Using-the-AskSensors-IoT-Platfo/
