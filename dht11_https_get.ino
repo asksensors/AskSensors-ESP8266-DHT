@@ -113,7 +113,7 @@ void loop() {
   Serial.println(https_host);
   if (!client.connect(https_host, https_port)) {
     Serial.println("-> connection failed");
-    return;
+    //return;
   }
   /* ignore certificate verification 
   if (client.verify(https_fingerprint, https_host)) {
