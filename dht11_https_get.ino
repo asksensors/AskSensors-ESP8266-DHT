@@ -77,6 +77,8 @@ void setup() {
   Serial.println("------------------------------------");
   // Set delay between sensor readings based on sensor details.
   delayMS = sensor.min_delay / 1000;
+  // Set Client to insecure
+  client.setInsecure();
 }
 
 void loop() {
