@@ -17,9 +17,10 @@
 const char* wifi_ssid = "..........";             // SSID
 const char* wifi_password = ".........";         // WIFI
 const char* apiKeyIn = ".........";      // API KEY IN
+const unsigned int writeInterval = 25000; // write interval (in ms)
 
 // ASKSENSORS config.
-const char* https_host = "asksensors.com";         // ASKSENSORS host name
+const char* https_host = "api.asksensors.com";         // ASKSENSORS host name
 const int https_port = 443;                        // https port
 const char* https_fingerprint =  "B5 C3 1B 2C 0D 5D 9B E5 D6 7C B6 EF 50 3A AD 3F 9F 1E 44 75";     // ASKSENSORS HTTPS SHA1 certificate
 // DHT config.
@@ -125,7 +126,7 @@ void loop() {
   }
   */
   // Create a URL for the request
-  String url = "/api.asksensors/write/";
+  String url = "/write/";
   url += apiKeyIn;
     url += "?module1=";
   url += myTemperature;
