@@ -1,7 +1,7 @@
 /*
  * DHT Temperature and humidity monitoring using ESP8266 and the askSensors 
  * Description: This examples connects the ESP to wifi, and sends Temperature and humidity to askSensors IoT platfom over HTTPS GET Request.
- *  Author: https://asksensors.com, 2018
+ *  Author: https://asksensors.com, 2018 - 2019
  *  github: https://github.com/asksensors
  * InstructableS: https://www.instructables.com/id/DHT11-Temperature-and-Humidity-Monitoring-Using-th/
  */
@@ -153,5 +153,5 @@ void loop() {
     }
   }
 
-  delay(25000);     // delay in msec
+  delay(writeInterval );     // delay in msec
 }
