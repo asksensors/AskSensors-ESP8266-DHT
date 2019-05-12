@@ -1,6 +1,10 @@
 # ESP8266 DHT HTTPS
 DHT monitoring using ESP8266 and AskSensors.
 
+Documentation:
+-
+- https://asksensors.com/doc/Documentation.html
+
 Requirements:
 -
 - Create AskSensors account: https://asksensors.com
